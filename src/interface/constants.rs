@@ -1,0 +1,12 @@
+pub const MAX_GREETING_LENGTH: usize = 32 + 4;
+pub const U64_SIZE_BYTES: usize = 8;
+pub const DEFAULT_GREETING: &str = &"Hello, Solana!";
+pub const CHINESE_GREETING: &str = &"你好，索拉纳";
+pub const HINDI_GREETING: &str = &"नमस्ते, सोलाना!";
+pub const SPANISH_GREETING: &str = &"¡Hola, Solana!";
+pub const FRENCH_GREETING: &str = &"Bonjour Solana!";
+pub const ARABIC_GREETING: &str = &"مرحباً، سولانا!";
+pub const RUSSIAN_GREETING: &str = &"Привет, Солана!";
+pub const PORTUGUESE_GREETING: &str = &"Olá, Solana!";
+pub const GERMAN_GREETING: &str = &"Hallo, Solana!";
+pub const JAPANESE_GREETING: &str = &"こんにちは、ソラナ！";

@@ -1,7 +1,4 @@
-use solana_program::{
-    account_info::AccountInfo, entrypoint::ProgramResult, program_error::ProgramError,
-    pubkey::Pubkey,
-};
+use solana_program::{account_info::AccountInfo, entrypoint::ProgramResult, pubkey::Pubkey};
 
 use crate::handlers::handle_greet::*;
 use crate::handlers::init_greet::*;
@@ -20,9 +17,6 @@ pub fn dispatch_instruction(
         }
         HelloWorldInstruction::Greet { seed } => {
             return handle_greet(program_id, accounts, seed);
-        }
-        _ => {
-            return Err(ProgramError::InvalidInstructionData);
         }
     }
 }
