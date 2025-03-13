@@ -1,1 +1,1 @@
-First solana program :/
+# Hello, Solana!
